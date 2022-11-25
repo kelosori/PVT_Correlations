@@ -4,14 +4,14 @@ import numpy as np
 import pandas as pd
 #import seaborn as sns
 import matplotlib.pyplot as plt
-from PVT_Correlations.Model.CorrelacionesPVT import Bo
-from PVT_Correlations.Model.CorrelacionesPVT import Pb
-from PVT_Correlations.Model.CorrelacionesPVT import Rs
-from PVT_Correlations.Model.CorrelacionesPVT import uo
+from PVT_Correlations.Model.Functions import Bo
+from PVT_Correlations.Model.Functions import Pb
+from PVT_Correlations.Model.Functions import Rs
+from PVT_Correlations.Model.Functions import uo
 
 # ------------------------------------
 # Create names for sheets
-SHEET_SUMMAR = "Datos"
+SHEET_SUMMARY = "Datos"
 SHEET_RESULTS = "Resultados"
 
 # Name of columns for distribution definitions
