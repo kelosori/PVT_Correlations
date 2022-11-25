@@ -40,7 +40,7 @@ CORRELACION_G = "Glaso"
 
 def main():
     wb = xw.Book.caller()
-    sheet = wb.sheets[SHEET_SUMMAR]
+    sheet = wb.sheets[SHEET_SUMMARY]
 
     df_TVD = sheet[STOC_VALUES].options(pd.DataFrame, index=False, expand="table").value
     input_col_names = df_TVD["Valores"].to_list()
